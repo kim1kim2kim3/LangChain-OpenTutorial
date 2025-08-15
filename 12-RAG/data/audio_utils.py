@@ -17,14 +17,14 @@ def extract_abr(abr):
 
 
 def get_audio_filepath(filename):
-    # Create the audio folder if it doesn't exist
+    # 오디오 폴더가 없으면 생성
     if not os.path.isdir("audio"):
         os.mkdir("audio")
 
-    # Get the absolute path of the current script
+    # 현재 스크립트의 절대 경로 가져오기
     current_directory = os.path.abspath("")
 
-    # Generate the file path
+    # 파일 경로 생성
     audio_file_path = os.path.join(current_directory, "audio", filename)
 
     return audio_file_path
