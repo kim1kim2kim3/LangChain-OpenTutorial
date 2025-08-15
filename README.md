@@ -1,44 +1,44 @@
-# 🦜️🔗 The LangChain Open Tutorial for Everyone
+# 🦜️🔗 모두를 위한 LangChain 오픈 튜토리얼
 
-This tutorial delves into [LangChain](https://github.com/langchain-ai/langchain), starting from an overview then providing practical examples.
+이 튜토리얼은 [LangChain](https://github.com/langchain-ai/langchain)을 개요부터 시작하여 실용적인 예제로 다룹니다.
 
 [![status: experimental](https://github.com/GIScience/badges/raw/master/status/experimental.svg)](https://github.com/GIScience/badges#experimental)
 [![licence: MIT](https://img.shields.io/badge/Licence-MIT-yellow.svg)](https://opensource.org/licenses/MIT "MIT License")
 
-The LangChain community in Seoul is excited to announce the LangChain OpenTutorial, a brand-new resource designed for everyone. This tutorial builds upon the foundation of the existing tutorial available here: [link](https://github.com/teddylee777/langchain-kr) written in Korean.
+서울의 LangChain 커뮤니티는 모두를 위한 새로운 자료인 LangChain OpenTutorial을 발표하게 되어 기쁩니다. 이 튜토리얼은 한국어로 작성된 기존 튜토리얼 [link](https://github.com/teddylee777/langchain-kr)를 기반으로 구축되었습니다.
 
-Within this new repository, we offer the following enhancements to benefit users of all skill levels:
+새로운 저장소에서는 모든 수준의 사용자가 활용할 수 있도록 다음과 같은 향상된 기능을 제공합니다.
 
-- **Addressing global use cases** for international users,
-- **Diving deep into cutting-edge features** including the recent updates available at the latest version of LangChain and LangGraph release, and
-- **Demonstrating additional goodies** that showcase real-world uses and further applications.
+- 국제 사용자를 위한 **글로벌 활용 사례 소개**
+- 최신 LangChain 및 LangGraph 버전에서 제공하는 **최신 기능 심층 탐구**
+- 실제 활용 예시와 추가 응용을 보여주는 **다양한 예제 제공**
 
-At this base repository, it serves as a home for both beginners and seasoned LangChain users. The tutorial whould provide a roadmap for learning LangChain, while also offering a valuable refresher for those already familiar with its functionalities.
+이 저장소는 LangChain 초보자와 숙련 사용자 모두를 위한 공간입니다. 튜토리얼은 LangChain 학습을 위한 로드맵을 제공하며, 이미 기능에 익숙한 사용자에게도 유용한 복습 자료가 될 것입니다.
 
-## 🛠️ Contribution Process
-### Steps (in developing)
-1. **Open a Pull request (PR)**: Develop at least **one** existing or new content file (`.ipynb`). Optionally, add examples related to open LLMs. Then, Submit a PR with the developed content.  
-   *- Note: Self-Check Before PR Submission (Recommended)*
-   - **License Compliance & Copyright Issues**: Verify that all dataset and content comply with licensing requirements. Confirm that there are no copyright infringements.
-   - **Template Compliance**: Follow the provided templates in [Korean](https://github.com/LangChain-OpenTutorial/LangChain-OpenTutorial/tree/main/99-TEMPLATE/Korean) or in [English](https://github.com/LangChain-OpenTutorial/LangChain-OpenTutorial/tree/main/99-TEMPLATE/English)
-   - **Execution Platform**: Individual files should be executable on **Google Colab**.
-   - **Specifications Submission (if Required)**: If using open models or additional packages, specify the required environment to Infra Team.
-2. **Team Peer Reviews**: Assign at least **two team members** as reviewers. Reviewers will evaluate the code and content quality and check tutorials are compatible with **Mac**, **Windows**, and **Linux** environments. **Approve** the Pull Request if there are no issues.
-4. **Merge Pull Request**: Once the Pull Request has been approved by more than two reviewers, the original author can merge the PR into the 'main' branch.
-5. **Proofreading**: During the following week, the proofreading team will review the submitted content for typos, template compliance, and proper citations. If the proofreading team requests any modifications, the original author must make the necessary corrections and resubmit the PR.
+## 🛠️ 기여 방법
+### 진행 단계
+1. **풀 리퀘스트(PR) 생성**: 기존 또는 새로운 콘텐츠 파일(`.ipynb`)을 최소 **하나** 이상 작성합니다. 필요하다면 오픈 LLM 관련 예제를 추가하고, 작성한 내용을 PR로 제출합니다.
+   *- PR 제출 전 자가 점검(권장)*
+   - **라이선스 및 저작권 준수**: 모든 데이터셋과 콘텐츠가 라이선스 요구 사항을 충족하는지 확인하고 저작권 위반이 없는지 검토합니다.
+   - **템플릿 준수**: [한국어](https://github.com/LangChain-OpenTutorial/LangChain-OpenTutorial/tree/main/99-TEMPLATE/Korean) 또는 [영어](https://github.com/LangChain-OpenTutorial/LangChain-OpenTutorial/tree/main/99-TEMPLATE/English) 템플릿을 따릅니다.
+   - **실행 환경**: 개별 파일은 **Google Colab**에서 실행 가능해야 합니다.
+   - **환경 명세 제출(필요 시)**: 오픈 모델이나 추가 패키지를 사용할 경우 필요한 환경을 인프라 팀에 명시합니다.
+2. **팀 동료 검토**: 최소 **두 명의 팀원**을 리뷰어로 지정합니다. 리뷰어는 코드와 콘텐츠 품질을 평가하고 튜토리얼이 **Mac**, **Windows**, **Linux** 환경과 호환되는지 확인합니다. 문제가 없다면 PR을 **승인**합니다.
+4. **PR 병합**: 두 명 이상의 리뷰어가 승인하면 원 작성자가 PR을 'main' 브랜치에 병합할 수 있습니다.
+5. **교정 작업**: 다음 주에 교정 팀이 오탈자, 템플릿 준수 여부, 인용 표기를 검토합니다. 수정 요청이 있을 경우 원 작성자는 필요한 수정을 반영하고 PR을 다시 제출해야 합니다.
 
-## 📚 References
+## 📚 참고 자료
 - [langchain-ai](https://github.com/langchain-ai/langchain) 📖
 - [LangGraph GitHub](https://github.com/langchain-ai/langgraph)
 - [LangChain Documentation](https://python.langchain.com/docs/introduction/)
 
-## Licence
+## 라이선스
 
-Unless stated otherwise, the codebase is released under the [MIT Licence][1]. This covers both the codebase and any sample code in the documentation.
+별도의 명시가 없는 한, 코드베이스는 [MIT 라이선스][1] 하에 배포됩니다. 이는 코드베이스와 문서의 예제 코드 모두에 적용됩니다.
 
 [1]: ./LICENCE
 
-## 🧑‍💻 Core Contributors
+## 🧑‍💻 핵심 기여자
 
 | Name | Profile | Name | Profile | Name | Profile |
 |------|---------|------|---------|------|---------|
@@ -70,7 +70,7 @@ Unless stated otherwise, the codebase is released under the [MIT Licence][1]. Th
 [![Contributors](https://contrib.rocks/image?repo=LangChain-OpenTutorial/LangChain-OpenTutorial&max=5000)](https://github.com/LangChain-OpenTutorial/LangChain-OpenTutorial/graphs/contributors)
 ---
 
-✨ Want to join? Add your info and submit a PR!
+✨ 참여하고 싶다면? 정보를 추가하고 PR을 제출하세요!
 
 <br/>
 <p><a href="https://www.buymeacoffee.com/teddylee777"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="teddylee777" /></a></p>
